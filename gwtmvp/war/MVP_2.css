@@ -1,0 +1,71 @@
+.demoPanel1 {
+	background-color: #a8c;
+}
+
+.eastPanel {
+	/*background-color: #F7E079;*/
+	background-color: #ddd;
+}
+
+.westPanel {
+	background-color: #F7E079;
+}
+
+.northPanel {
+	background-color: #BCEDF5;
+}
+
+.southPanel {
+	background-color: #FFFF00;
+}
+
+.panel {
+	background-color: #FF0000;
+}
+
+.parent {
+	background-color: #00ff00;
+}
+
+.centerPanel {
+	background-color: #FFC;
+}
+
+.myStyle {
+	font: bold 15px verdana;
+	color: #ff0000;
+	font-size: 14px;
+}
+
+.bigButton {
+	/*
+	height: 30px;
+	font: bold 15px verdana;
+	*/
+	width: 100%;
+	background: #3498db;
+	background-image: -webkit-linear-gradient(top, #3498db, #05324f);
+	background-image: -moz-linear-gradient(top, #3498db, #05324f);
+	background-image: -ms-linear-gradient(top, #3498db, #05324f);
+	background-image: -o-linear-gradient(top, #3498db, #05324f);
+	background-image: linear-gradient(to bottom, #3498db, #05324f);
+	-webkit-border-radius: 8;
+	-moz-border-radius: 8;
+	border-radius: 5px;
+	color: #ffffff;
+	font-size: 15px;
+	padding: 5px 5px 5px 5px;
+	text-decoration: none;
+}
+
+.smallButton {
+	width: 120px;
+	-webkit-border-radius: 8;
+	-moz-border-radius: 8;
+	border-radius: 5px;
+	color: #ffffff;
+	font-size: 15px;
+	background: #3498db;
+	padding: 5px 5px 5px 5px;
+	text-decoration: none;
+}

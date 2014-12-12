@@ -190,7 +190,6 @@ public class MVP_2 implements EntryPoint {
 
 	@Override
 	public void onModuleLoad() {
-		// https://knome.ultimatix.net/blogposts/149261-7-tips-for-exception-handling-in-gwt
 		GWT.setUncaughtExceptionHandler(new GWT.UncaughtExceptionHandler() {
 			public void onUncaughtException(Throwable e) {
 				Throwable unwrapped = unwrap(e);
